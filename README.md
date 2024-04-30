@@ -15,12 +15,22 @@ To run the code:
 
 node index.js
 
+Hosted URL: https://epimax.onrender.com
+
+Swagger api documentations:
+
+after running the server 
+
+use [localhost:5000/api-docs](http://localhost:5000/api-docs)
+
+
+
 User Authentication API Documentation
 This API allows users to register and log in to the system using username and password credentials.
 
 Base URL
 
-http://your-api-domain.com/auth/register
+http://your-api-domain.com/register
 Register User
 
 POST /register
@@ -43,7 +53,7 @@ Response
 500 Internal Server Error: Unable to register user.
 
 Login User
-http://your-api-domain.com/auth/login
+http://your-api-domain.com/login
 
 POST /login
 Logs in a user with the provided credentials and returns a JWT token for authentication.
@@ -71,7 +81,7 @@ json
 
 Tasks Management
 
-http://your-api-domain.com/tasks/create
+http://your-api-domain.com/create
 Authentication
 All endpoints require authentication using a token. Include the token in the Authorization header of the request.
 

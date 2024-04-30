@@ -5,7 +5,7 @@
     "description": "This API allows you to manage tasks in a task management system. You can perform CRUD (Create, Read, Update, Delete) operations on tasks",
     "version": "1.0.0"
   },
-  "host": "localhost:5000",
+  "host": "https://epimax.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"

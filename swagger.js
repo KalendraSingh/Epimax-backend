@@ -6,7 +6,7 @@ const doc = {
     title: 'My API',
     description: 'This API allows you to manage tasks in a task management system. You can perform CRUD (Create, Read, Update, Delete) operations on tasks'
   },
-  host: 'localhost:5000'
+  host: 'https://epimax.onrender.com'
 };
 
 const outputFile = './swagger-output.json';
