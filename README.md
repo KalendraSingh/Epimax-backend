@@ -23,6 +23,8 @@ after running the server
 
 use [localhost:5000/api-docs](http://localhost:5000/api-docs)
 
+In swagger use complete token including Bearer
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywidXNlcm5hbWUiOiJ1c2VyIiwiaWF0IjoxNzE0NDcyNzg5LCJleHAiOjE3MTQ0NzYzODl9.0mfUcN3Lib4TZ_rhbe2tm_RCWn614h8ScWWD70uc0yo
 
 
 User Authentication API Documentation
